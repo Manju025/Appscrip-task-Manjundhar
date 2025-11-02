@@ -18,19 +18,19 @@
 .header-top {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    padding-left: 75px;
+    width: 100%;
+    padding-left: 65px;
     padding-right: 65px;
 }
 
+.title-logo {
+  padding-left: 200px;
+  font-size: 35px;
+}
+
 .logo {
-    font-family: 'Arial Black', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 27px;
-    line-height: 29px;
-    color: #000000;
-    align-self: center;
-    margin: 0px;
     padding: 0px;
 }
 
@@ -44,6 +44,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
+    gap: 25px;
     height: 100%;
 }
 
@@ -53,7 +54,6 @@ a {
     font-size: 13px;
     line-height: 14px;
     color: #000000;
-    margin-right: 40px;
     text-decoration: none;
     align-self: center;
     cursor: pointer;
@@ -430,6 +430,11 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+
+  .title-logo {
+    padding-left: 0px;
+    font-size: 35px;
+  }
     .menus {
       display: block;
       align-self: center;
@@ -691,6 +696,11 @@ a {
 
 
 @media screen and (min-width: 600px) and (max-width: 880px) {
+  .title-logo {
+    padding-left: 50px;
+    font-size: 35px;
+  }
+
   .desc-p {
     padding-left: 75px;
     padding-right: 75px;
