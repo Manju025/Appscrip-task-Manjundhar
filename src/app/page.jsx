@@ -32,7 +32,7 @@ const Home = () => {
             />
           </svg>
           </div>
-          <h1 className="logo">LOGO</h1>
+          <h1 className="title-logo">LOGO</h1>
           <div className="logos">
             <svg className="logo"
               width="244"
